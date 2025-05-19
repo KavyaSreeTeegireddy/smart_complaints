@@ -5,7 +5,6 @@ const bp = require("body-parser");
 const path = require("path");
 const { MongoClient, ObjectId } = require("mongodb");
 const url =
-  "mongodb+srv://22pa1a12g7:22pa1a12g7@cluster0.rg2rl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 app.use(bp.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
